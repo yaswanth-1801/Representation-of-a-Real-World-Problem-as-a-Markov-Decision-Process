@@ -290,35 +290,8 @@ print("Expected Immediate Reward:", round(expected_reward, 2))
 
 ## Output
 ```
-Name: Yaswanth R
-Register Number: 212225040499
+<img width="907" height="597" alt="image" src="https://github.com/user-attachments/assets/84d0c53b-5146-473a-9945-6b954f8de872" />
 
-States: ['Low', 'Medium', 'High']
-Actions: ['Maintain Current Schedule',
-          'Deploy Extra Bus',
-          'Reallocate Bus']
-Discount Factor: 0.9
-
-Transition Probability Validation:
-Low - Maintain Current Schedule = 1.0
-Low - Deploy Extra Bus = 1.0
-Low - Reallocate Bus = 1.0
-Medium - Maintain Current Schedule = 1.0
-Medium - Deploy Extra Bus = 1.0
-Medium - Reallocate Bus = 1.0
-High - Maintain Current Schedule = 1.0
-High - Deploy Extra Bus = 1.0
-High - Reallocate Bus = 1.0
-
-All transition probabilities are valid.
-
-Sample Decision
-Current State: High
-Selected Action: Deploy Extra Bus
-Next State Probabilities: {'Low': 0.35,
-                           'Medium': 0.55,
-                           'High': 0.1}
-Expected Immediate Reward: 2.15
 ```
 Calculation of Expected Immediate Reward
 For the current state High and the action Deploy Extra Bus:
