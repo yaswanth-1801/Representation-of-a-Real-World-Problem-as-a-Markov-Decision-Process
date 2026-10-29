@@ -289,10 +289,10 @@ print("Expected Immediate Reward:", round(expected_reward, 2))
 ```
 
 ## Output
-```
+
 <img width="907" height="597" alt="image" src="https://github.com/user-attachments/assets/84d0c53b-5146-473a-9945-6b954f8de872" />
 
-```
+
 Calculation of Expected Immediate Reward
 For the current state High and the action Deploy Extra Bus:
 | Next State | Probability | Total Reward | Weighted Reward |
